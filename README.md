@@ -13,8 +13,8 @@ The data should be structured like
 --HighwayNetworks
     --Data
         --MNIST
-            --train.csv
-            --test.csv
+            --mnist_train.csv
+            --mnist_test.csv
 ```
 
 ## Repository Information
