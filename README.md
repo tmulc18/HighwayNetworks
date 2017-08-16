@@ -18,7 +18,8 @@ The data should be structured like
 ```
 
 ## Repository Information
-*  Highway Networks Demo.ipynb is notebook that shows how the networks is constructed.
-*  utils.py includes data processing functions
-*  modules.py has helper functions for build networks
-*  models.py builds networks
+*  `Highway Networks Demo.ipynb` notebook that shows how the networks is constructed.
+*  `Plain vs Highway.ipynb` flexible notebook that compares plain networks with highway networks
+*  `utils.py` data processing functions
+*  `modules.py` helper functions for building networks
+*  `models.py` builds networks
