@@ -2,6 +2,8 @@
 
 TensorFlow implementation of [Highway Networks](https://arxiv.org/abs/1505.00387). These networks shown to allow training with deeper architectures than traditional networks. 
 
+<img src="imgs/mean_activations.png">
+
 ## Data
 All evaluations were done using MNIST which can be downloaded from [here](https://pjreddie.com/projects/mnist-in-csv/)
 

@@ -36,11 +36,12 @@ class HighwayNetwork(object):
 		        transform_biases.append(v)
 		return transform_biases
 
-	def get_transform_activation(self):
+	def get_transform_activations(self):
 		transform_activations = []
 		for op in self.g.get_operations():
 		    if 'highway' and 'Sigmoid' in op.name and 'gradient' not in op.name:
 		        transform_activations.append(op.values())
+		return transform_activations
 
 
 class PlainNetwork(object):

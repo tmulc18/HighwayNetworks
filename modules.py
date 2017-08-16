@@ -58,5 +58,5 @@ def highway_block(x,layer,num_nodes=784):
     input_shape = x.get_shape()
     with tf.variable_scope('highway_%d'%layer):
         H = dense_layer(x,name_suffix='_h',num_nodes=num_nodes,activation='relu')
-        T = dense_layer(x,name_suffix='_t',num_nodes=num_nodes,activation='sigmoid',bias_init_val=-1)
+        T = dense_layer(x,name_suffix='_t',num_nodes=num_nodes,activation='sigmoid',bias_init_val=-3)
     return H*T + (1.-T)*x
